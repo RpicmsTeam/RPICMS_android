@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Start" >
+
+    <item android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/description_refresh"
+        android:orderInCategory="1" />
+        <!--android:showAsAction="always"-->
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_synctab"
+        android:title="@string/action_sync"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>
